@@ -1,0 +1,47 @@
+{
+    "size": {
+        "width": 1200,
+        "height": 810
+    },
+    "selected": false,
+    "name": "アラーム",
+    "chatBarText": "アラーム",
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 735,
+                "height": 810
+            },
+            "action": {
+                "type": "message",
+                "text": "説明"
+            }
+        },
+        {
+            "bounds": {
+                "x": 735,
+                "y": 0,
+                "width": 465,
+                "height": 405
+            },
+            "action": {
+                "type": "message",
+                "text": "おきて"
+            }
+        },
+        {
+            "bounds": {
+                "x": 735,
+                "y": 405,
+                "width": 465,
+                "height": 405
+            },
+            "action": {
+                "type": "message",
+                "text": "とめる"
+            }
+        }
+    ]
+}
