@@ -21,7 +21,7 @@
                 webiopi().callMacro("getLightHours", [], updateLightHours);
  
         // Create a button to call setLightHours macro
-        var sendButton = webiopi().createButton("sendButton", "Send", function() {
+        var sendButton = webiopi().createButton("sendButton", "Set", function() {
            // Arguments sent to the macro
                     var hours = [$("#inputOn").val(), $("#inputOff").val()];
             // Call the macro
