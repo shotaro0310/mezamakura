@@ -5,7 +5,7 @@ GPIO = webiopi.GPIO
 
 LIGHT = 4    # GPIO4
 ALARM_ON = datetime.time(8,0)     # 自動消灯時間 8:00
-ALARM_OFF = datetime.time(8,0)     # 自動消灯時間 8:10
+ALARM_OFF = datetime.time(8,10)     # 自動消灯時間 8:10
  
 def setup():
     # GPIO4に出力設定
